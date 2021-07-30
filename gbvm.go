@@ -21,6 +21,13 @@ type GBVM struct {
 	Program []int
 }
 
+func (g *GBVM) New(IsRunning bool, Program []int) *GBVM {
+	return &GBVM{
+		IsRunning: IsRunning,
+		Program:   Program,
+	}
+}
+
 func (g *GBVM) Position() int {
 	PC += 1
 	return g.Program[PC]
