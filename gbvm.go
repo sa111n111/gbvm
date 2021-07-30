@@ -48,7 +48,6 @@ func (g *GBVM) Parse() {
 	switch InstrNum {
 	case 0:
 		g.IsRunning = false
-
 		break
 
 	case 1:
