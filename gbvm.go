@@ -68,7 +68,7 @@ func (g *GBVM) Parse() {
 }
 
 func (g *GBVM) Run() {
-	for g.IsRunning == true {
+	for g.IsRunning {
 		g.PrettyPrint()
 		provided_instructions := g.Position()
 		g.Deserialize(provided_instructions)
