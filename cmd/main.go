@@ -1,7 +1,7 @@
 package main
 
 import (
-	"github.com/sal1entx86/gbvm"
+	"github.com/sa111n111/gbvm"
 )
 
 func main() {
