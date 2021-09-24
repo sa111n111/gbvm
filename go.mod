@@ -1,3 +1,3 @@
-module github.com/sal1entx86/gbvm
+module github.com/sa111n111/gbvm
 
 go 1.16
